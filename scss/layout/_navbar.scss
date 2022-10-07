@@ -1,0 +1,193 @@
+.nav {
+   @include custom-menu(flex, space-between, 80px, 100%, center, #FAFAFA);
+   
+   &__ul {
+      @include custom-menu(flex, space-between, auto, 40%, center, #FAFAFA);
+      
+      // @extends list;
+      list-style-type: none;
+      font-family: 'Public Sans';
+      text-transform: uppercase;
+      
+      &--list {
+         &-link {
+            text-decoration: none;
+            color:$Grayish-Dark-Blue;
+            &:hover{
+               color:#5FB4A2;
+            }
+         }
+      }
+   }
+   .menu-img{
+      display:none;
+   }
+}
+
+
+
+@media #{$media-desktop} {
+   
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 40%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img {
+         display:none;
+      }
+   }
+}
+
+
+
+@media #{$media-lg-tablet} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+      
+      
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 50%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img{
+         display:none;
+      }
+   }
+}
+
+@media #{$media-tablet} {
+   
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+      
+      
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 70%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img{
+         display:none;
+      }
+   }  
+}
+
+@media #{$media-mobile} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+      
+      
+      &__ul {
+         @include custom-menu(none, space-between, auto, 70%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img{
+         display:block;
+      }
+   } 
+}
+
+
+@media #{$media-mobile-sm} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+      
+      
+      &__ul {
+         @include custom-menu(none, space-between, auto, 70%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img{
+         display:block;
+      }
+   } 
+}
+
+@media #{$media-mobile-xs} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #FAFAFA);
+      
+      
+      &__ul {
+         @include custom-menu(none, space-between, auto, 70%, center, #FAFAFA);
+         list-style-type: none;
+         font-family: 'Public Sans';
+         text-transform: uppercase;
+         
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$Grayish-Dark-Blue;
+               &:hover{
+                  color:#5FB4A2;
+               }
+            }
+         }
+      }
+      .menu-img{
+         display:block;
+      }
+   } 
+}
