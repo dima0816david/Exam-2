@@ -1601,6 +1601,9 @@ footer {
   .logos {
     padding-left: 10px;
   }
+  .logos:hover {
+    color: #3ef456;
+  }
 }
 @media only screen and (max-width : 992px) {
   footer {
